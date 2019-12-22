@@ -14,4 +14,4 @@ Play Better Pro Type Not a Noob.
 
 2. su
 
-3. ./CloudGL
+3. ./Project_Cloud_V1/CloudGL
