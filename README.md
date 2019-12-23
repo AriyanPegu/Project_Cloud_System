@@ -2,16 +2,10 @@
 
 Hi Guys,
 
-This project only for PUBG Mobile GLOBAL
-I'm not responsible for any kind of type
-issues for your Game.Use Only Your Own risk.
-Play Better Pro Type Not a Noob.
-
+This Project Only for PUBG Mobile User.
+Who need to Play Better Pro Type.
+Mode Pubg Game Database Files...
 
 #Type Termux Command For Use
 
-1. git clone https://github.com/AriyanPegu/Project_Cloud_V1 && chmod 777 /data/data/com.termux/files/home/Project_Cloud_V1/CloudGL
-
-2. su
-
-3. ./Project_Cloud_V1/CloudGL
+$ git clone https://github.com/AriyanPegu/Project_Cloud_V1
