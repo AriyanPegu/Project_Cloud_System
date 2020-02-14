@@ -4,7 +4,7 @@
 
 Project Cloud System for PUBG Mobile User.
 Who need to Play Better Pro Type.
-Mode Pubg Game Memory Based...
+Root Android Memory Based...
 
 $ pkg install git
 
