@@ -1,11 +1,15 @@
 # Project_Cloud_System
+# Termux & Pubg Inbuild Code
 
-Hi Guys,
 
-This Project Only for PUBG Mobile User.
+Project Cloud System for PUBG Mobile User.
 Who need to Play Better Pro Type.
 Mode Pubg Game Memory Based...
 
-#Type Termux Command For Use
+$ pkg install git
 
-$ git clone https://github.com/AriyanPegu/Project_Cloud_V1
+$ git clone https://github.com/AriyanPegu/Project_Cloud_System
+
+$ cd Project_Cloud_System && su
+
+$ ./CloudAriyan
