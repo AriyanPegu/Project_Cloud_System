@@ -4,7 +4,7 @@ Hi Guys,
 
 This Project Only for PUBG Mobile User.
 Who need to Play Better Pro Type.
-Mode Pubg Game Database Files...
+Mode Pubg Game Memory Based...
 
 #Type Termux Command For Use
 
