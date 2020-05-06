@@ -438,7 +438,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 .us
 0.0.0.0 .dat
 0.0.0.0 .xml
-0.0.0.0 .gcloud
 0.0.0.0 .pubg
 0.0.0.0 .iedsafe
 0.0.0.0 .client
