@@ -11,14 +11,10 @@ ff02::3 ip6-allhosts
 1.1.1.1 1.1.1.1 
 ::1             ip6-localhost
 ##############################
-0.0.0.0 dlied1.qq.com
-0.0.0.0 www.qq.com
-0.0.0.0 qq.com
-0.0.0.0 gameguardian.net
-0.0.0.0 vmp.qq.com
-0.0.0.0 astat.bugly.qcloud.com
-0.0.0.0 intldlgs.qq.com
-1.1.1.1 file.igamecj.com
+0.0.0.0 .net
+0.0.0.0 .qcloud.com
+0.0.0.0 .qq.com
+0.0.0.0 file.igamecj.com
 ##############################
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
