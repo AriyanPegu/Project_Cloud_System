@@ -1,4 +1,4 @@
-
+gg.toast("ᴛᴄs ᴘᴜʙᴍ-1.3.0 sᴄʀɪᴘᴛ")
 gg.setVisible(false)
 PUBGMH = 1
 SUPERNETWORK=1
@@ -7,7 +7,8 @@ function HOME()
 MN = gg.multiChoice({
 	" ᴍᴇᴍᴏʀʏ ᴀɴᴛɪʙᴀɴ --(ʟᴏʙʙʏ)",
 	" ʟᴇss ʀᴇᴄᴏɪʟ",
-	" ᴀᴜᴛᴏ ʜᴇᴀᴅsʜᴏᴏᴛ",
+	" sᴍᴀʟʟ ᴄʀᴏssʜᴀɪʀ",
+	" ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ",
 	" ᴅᴀᴍᴀɢᴇ++  (ᴇᴠᴇʀʏ ᴍᴀᴛᴄʜ)",
 	" ʀᴇᴍᴏᴠᴇ ғᴏɢ",
 	" ɴᴏ ɢʀᴀss",
@@ -21,18 +22,21 @@ MN = gg.multiChoice({
       RECOIL()
     end
   if MN[3] == true then
-     HEADSHOT()
-   end
-   if MN[4] == true then
-     DAMAGE()
+      CROSS()
+    end
+  if MN[4] == true then
+     MAGIC()
    end
    if MN[5] == true then
-     FOG()
+     DAMAGE()
    end
    if MN[6] == true then
-     GRASS()
+     FOG()
    end
    if MN[7] == true then
+     GRASS()
+   end
+   if MN[8] == true then
       EXIT()
   end
   end
@@ -389,70 +393,36 @@ gg.editAll("0", 16)
 gg.clearResults()
 gg.toast("ʟᴇss ʀᴇᴄᴏɪʟ ᴀᴄᴛɪᴠᴇ✓")
 end
-function HEADSHOT()
+function CROSS()
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-460", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_CODE_APP)
 gg.clearResults()
-gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-560", gg.TYPE_FLOAT)
+gg.searchNumber("-1.2382424e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-7.1608877e24::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("90", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("sᴍᴀʟʟ ᴄʀᴏssʜᴀɪʀ ᴀᴄᴛɪᴠᴇ✓")
+end
+function MAGIC()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("160", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0.07", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("140", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(500)
-gg.editAll("-125", gg.TYPE_FLOAT)
-gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("10;45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-gg.searchNumber("0.10000000149;64.50088500977", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50)
-gg.editAll("1.10000000149", gg.TYPE_FLOAT)
+gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(56)
+gg.editAll("-1339", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("151.5", gg.TYPE_FLOAT)
+gg.searchNumber("69.5;35;33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)
+gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("10;45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("ᴀᴜᴛᴏ ʜᴇᴀᴅsʜᴏᴏᴛ ᴀᴄᴛɪᴠᴇ✓")
+gg.toast("ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ ᴀᴄᴛɪᴠᴇ✓")
 end 
 function DAMAGE()
 gg.clearResults()
