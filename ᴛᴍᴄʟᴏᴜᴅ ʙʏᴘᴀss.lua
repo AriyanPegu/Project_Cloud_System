@@ -1,4 +1,4 @@
-gg.toast("@Punsa14")
+
 gg.setVisible(false)
 PUBGMH = 1
 SUPERNETWORK=1
